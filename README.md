@@ -13,4 +13,6 @@ Similar to scraping for the defensive statistics, this source is also from the F
 ## Runing the Files
 To begin, fun the "project_cleaning_scraping.ipynb" file, as it scrapes all of the websites, cleans the data, and prepares it in a csv file to be used for the analysis.
 
-Second, run the "BAIS3250_project_analysis.ipynb". This file contains the hypothesis tests, regression and classification models based on the main questions for this project, including the target variables of Points/Game, Points Allowed/Game, and how the top 5 teams compare to the other teams.
+the "2021-2024stats.csv" file is the final dataframe following the cleaning and scraping of the inital data. This will be imported as a csv into a pandas dataframe for the analysis part of this project on a different Jupyten Notebook.
+
+Next, run the "BAIS3250_project_analysis.ipynb". This file contains the hypothesis tests, regression and classification models based on the main questions for this project, including the target variables of Points/Game, Points Allowed/Game, and how the top 5 teams compare to the other teams.
